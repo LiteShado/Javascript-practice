@@ -7,7 +7,8 @@ class Backpack {
     strapLengthL,
     strapLengthR,
     lidOpen,
-    dateAcquired
+    dateAcquired,
+    myName
   ) {
     this.name = name;
     this.volume = volume;
@@ -19,6 +20,7 @@ class Backpack {
     };
     this.lidOpen = lidOpen;
     this.dateAcquired = dateAcquired;
+    this.myName = myName
   }
   toggleLid(lidStatus) {
     this.lidOpen = lidStatus;
