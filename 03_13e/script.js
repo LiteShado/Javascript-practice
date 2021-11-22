@@ -24,7 +24,7 @@ const everydayPack = new Backpack(
 const newBook = new Book(
   "Everyday Lesson",
   "Nat Richmond",
-  "Mii Fiine Publishing",
+  "Publishing",
   "January 17, 1987 09:03:00 EST",
   "Self Development",
   "Everyday we learn more and more",
@@ -33,7 +33,7 @@ const newBook = new Book(
 const anotherBook = new Book(
   "Winner",
   "Nat Richmond",
-  "Mii Fiine Publishing",
+  "Publishing",
   "November 17, 2020 11:33:00 EST",
   "Self Development",
   "Keep up the good work!",
@@ -58,3 +58,7 @@ console.log(
 );
 console.log("by: ", anotherBook.quoter);
 console.log("This book was released", anotherBook.genreYear(), "days ago");
+
+const content = "<h1>Nat</h1>";
+
+document.body.innerHTML = content;
