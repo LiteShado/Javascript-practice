@@ -59,6 +59,6 @@ console.log(
 console.log("by: ", anotherBook.quoter);
 console.log("This book was released", anotherBook.genreYear(), "days ago");
 
-const content = "<h1>Nat</h1>";
+const content = "<h1>" + everydayPack.name + "</h1>";
 
 document.body.innerHTML = content;
